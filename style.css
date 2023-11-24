@@ -1,0 +1,204 @@
+.topnav {
+    background-color: #0B2027 ;
+    overflow: hidden;
+    
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #BC8034;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  
+  
+  
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-left {
+    float: left;
+    
+  }
+
+h1
+{
+  text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+  color:#D34F73;
+}
+
+h2
+{
+  text-align: center;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#D34F73;
+}
+
+p
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.textaside
+{
+  padding-left: 500px;
+  text-align: left;
+  padding-bottom: -90px;
+  color: #0B2027;
+}
+
+section
+{
+  padding-left: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+
+.container
+{
+  width: 1500px;
+  height: 400px;
+  background-color: #EDE3E9;
+}
+
+
+footer
+{
+  background-color:#0B2027;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  left: 0;
+  color: #BC8034;
+  text-align: center;
+    
+}
+
+body
+{
+  height: 500px;
+  background-color: #EDE3E9;
+}
+
+.aboutustext
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  float: right;
+
+}
+
+form
+{
+ font-size: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+ padding-left: 90px;
+ 
+}
+
+button
+{
+  background-color:#9CAFB7;
+  padding: 20px 30px;
+  margin-top: 40px;
+  border-radius: 40px; 
+}
+
+.imgconatiner
+{
+  width: 20px;
+  height :20px;
+}
+
+input
+{
+  width: 250px;
+  height: 30px;
+  
+}
+
+.signin
+{
+  border-radius: 5px ;
+  padding: 20px;
+  text-align: center;
+  padding-left: 20px;
+
+}
+
+.discpic
+{
+   
+   padding: 10px;
+   margin-top: -10px;
+   height: 40px;
+   
+   
+}
+
+.discpic2
+{
+  
+  margin-top: -580px;
+  padding-left: 500px;
+
+}
+
+.discpic3
+{
+  margin-top: -580px;
+  float: inline-end;
+}
+
+.caruselspace
+{
+  width: 500px;
+  height: 400px;
+  margin-left: 500px;
+}
+
+
+.wrapper
+{
+  float: right;
+ margin-top:  -300px;
+ margin-right: 200px;
+}
+
+
+textarea
+{
+ padding: 30px;
+  resize: none;
+}
+
+.btn-group
+{
+  align-items: center;
+  
+}
+
+#image
+{
+ text-align: center;
+}
+
+ 
+
+
+
+
+
