@@ -40,9 +40,9 @@ require_once "includes/dbh.php";
 
     </form>
   
-    <button  onclick ="location.href='orderpage.html';">Edit </button>
+    <button  onclick ="location.href='orderpage.php';">Edit </button>
 
-    <button  onclick ="location.href='shoppingcart.html';">Confirm </button>
+    <button  onclick ="location.href='shoppingcart.php';">Confirm </button>
 
     <button type="Cancel" style="background-color:#D34F73">Cancel </button>
     
