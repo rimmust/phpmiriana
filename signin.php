@@ -11,7 +11,7 @@ require_once "includes/dbh.php";
    <h1>Sign in</h1>
    <div class="signin">
    
-    <form action="index.html" method="get">
+    <form action="index.php" method="get">
       <div class="imgconatiner">
         <img src="images/profile.png" alt="avatar">
       </div>
@@ -26,11 +26,11 @@ require_once "includes/dbh.php";
       
      
       <button type="submit">Login</button>
-      <button  onclick ="location.href='editd.html';">Edit account details</button>
+      <button  onclick ="location.href='editd.php';">Edit account details</button>
 
       <h4>New to our website click here to create an account in a few seconds</h4>
       
-      <button  onclick ="location.href='newaccount.html';">Create new account</button>
+      <button  onclick ="location.href='newaccount.php';">Create new account</button>
     
       
  

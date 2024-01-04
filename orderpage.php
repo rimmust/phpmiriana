@@ -32,6 +32,9 @@ require_once "includes/dbh.php";
       <input type="text"  name="location" required>
       <br>
 
+      <label for="street"><br>street</label>
+      <input type="text"  name="street" required>
+
       <label for="postcode"><br>postcode</label>
       <input type="text"  name="postcode" required>
       <br>
@@ -43,7 +46,7 @@ require_once "includes/dbh.php";
     </form>
   
   
-    <button  onclick ="location.href='editorder.html';">confirm  </button>
+    <button  onclick ="location.href='editorder.php';">confirm  </button>
 
     
 

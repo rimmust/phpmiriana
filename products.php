@@ -17,7 +17,7 @@ require_once "includes/dbh.php";
      <div class="card-body">
        <h5 class="card-title"></h5>
        <p class="card-text">The dark side of the moon</p>
-       <a href="singleproduct.html" class="btn btn-primary">More details</a>
+       <a href="singleproduct.php" class="btn btn-primary">More details</a>
      </div>
  
  
@@ -27,7 +27,7 @@ require_once "includes/dbh.php";
       <div class="card-body">
         <h5 class="card-title"></h5>
         <p class="card-text">Silk Sonic</p>
-        <a href="singleprodyct4.html" class="btn btn-primary">More details</a>
+        <a href="singleprodyct4.php" class="btn btn-primary">More details</a>
       </div>
      </div>
  </div>
@@ -38,7 +38,7 @@ require_once "includes/dbh.php";
     <div class="card-body">
       <h5 class="card-title"></h5>
       <p class="card-text">Harry s house</p>
-      <a href="singleproduct3.html" class="btn btn-primary">More details</a>
+      <a href="singleproduct3.php" class="btn btn-primary">More details</a>
     </div>
  
  
@@ -48,7 +48,7 @@ require_once "includes/dbh.php";
      <div class="card-body">
        <h5 class="card-title"></h5>
        <p class="card-text">Micheal Jackson Thriller</p>
-       <a href="singleproduct2.html" class="btn btn-primary">More details</a>
+       <a href="singleproduct2.php" class="btn btn-primary">More details</a>
      </div>
     </div>
  </div>
@@ -59,7 +59,7 @@ require_once "includes/dbh.php";
    <div class="card-body">
      <h5 class="card-title"></h5>
      <p class="card-text">Little mermaid</p>
-     <a href="singleproduct5.html" class="btn btn-primary">More details</a>
+     <a href="singleproduct5.php" class="btn btn-primary">More details</a>
    </div>
 
 
@@ -69,7 +69,7 @@ require_once "includes/dbh.php";
     <div class="card-body">
       <h5 class="card-title"></h5>
       <p class="card-text"> Plastic Heart</p>
-      <a href="singleprodyct6.html" class="btn btn-primary">More details</a>
+      <a href="singleprodyct6.php" class="btn btn-primary">More details</a>
     </div>
    </div>
 </div>

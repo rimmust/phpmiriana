@@ -35,7 +35,7 @@ require_once "includes/dbh.php";
     <br>
    
 
-    <button  onclick ="location.href='productmanagmentedit.html';">Confirm </button>
+    <button  onclick ="location.href='productmanagmentedit.php';">Confirm </button>
 
     <button type="Cancel" style="background-color:#D34F73">Cancel </button>
   

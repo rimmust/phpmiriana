@@ -34,9 +34,9 @@ require_once "includes/dbh.php";
     <img src="images/ca4.png" width="60px" height="60px">
     <br>
    
-    <button  onclick ="location.href='productmanagment.html';">edit </button>
-    <button  onclick ="location.href='products.html';">Confirm </button>
-    <button  onclick ="location.href='productmanagment.html';">Delete </button>
+    <button  onclick ="location.href='productmanagment.php';">edit </button>
+    <button  onclick ="location.href='products.php';">Confirm </button>
+    <button  onclick ="location.href='productmanagment.php';">Delete </button>
 
    
 

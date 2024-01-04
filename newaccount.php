@@ -45,7 +45,7 @@ require_once "includes/dbh.php";
       <br>
       
      
-      <button  onclick ="location.href='products.html';">Create new account</button>
+      <button  onclick ="location.href='products.php';">Create new account</button>
       
     </form>
    </div>  

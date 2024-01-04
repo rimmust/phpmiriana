@@ -27,7 +27,7 @@ require_once "includes/dbh.php";
       
     
 
-       <button  onclick ="location.href='orderpage.html';">Order</button>
+       <button  onclick ="location.href='orderpage.php';">Order</button>
      
    </div>
 

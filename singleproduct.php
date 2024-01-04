@@ -1,4 +1,4 @@
-<?php
+z<?php
 include "includes/header.php";
 require_once "includes/dbh.php";
   
@@ -24,7 +24,7 @@ require_once "includes/dbh.php";
          Price :179 
        </p>
 
-      <button  onclick ="location.href='orderpage.html';">Order</button>
+      <button  onclick ="location.href='orderpage.php';">Order</button>
 
      
     
