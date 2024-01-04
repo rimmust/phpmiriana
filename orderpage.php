@@ -46,7 +46,7 @@ require_once "includes/dbh.php";
     </form>
   
   
-    <button  onclick ="location.href='editorder.php';">confirm  </button>
+    <button>confirm  </button>
 
     
 
