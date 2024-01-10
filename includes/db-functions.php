@@ -24,3 +24,6 @@ function loadCart($conn)
 
     return $result;
 }
+
+//inert information in the database
+//the info which the user gives us

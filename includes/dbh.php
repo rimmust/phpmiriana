@@ -6,7 +6,7 @@
 $serverName = "localhost";
 $dbUsername = "root";
 $dbPassword = "";
-$dbName = "vinlystore";
+$dbName = "vinlystore"; 
 
 $conn = mysqli_connect($serverName, $dbUsername, $dbPassword, $dbName);
 
