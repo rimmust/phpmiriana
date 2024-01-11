@@ -12,6 +12,8 @@ require_once "includes/dbh.php";
    <h1>Sign in</h1>
    <div class="signin">
     <?php
+
+
     //check if button clicked collect the data
     if(isset($POST["login"]))
     {
@@ -23,7 +25,8 @@ require_once "includes/dbh.php";
       //return an object 
       $result = mysqli_query($conn,$sql);
       //convert resutl into an array
-      $user = $mysqli_fetch_array($result,MYSQLI_ASSOC);
+      $user = mysqli_fetch_array($result,MYSQLI_ASSOC);
+      echo $user;
       if($user)
       {
         //if email exsists
@@ -33,7 +36,7 @@ require_once "includes/dbh.php";
          // $_SESSION["user"] = "yes";
           //takt the user to the welcoome screen
           header("Location: index.php");
-          die();
+          exit();
         }
         else
         {

@@ -13,8 +13,9 @@ require_once "includes/db-functions.php";
    <div class="signin">
    <?php
     //  print_r($_POST);
-    if(isset($POST["submit"]))
+    if(isset($_POST["submit"]))
     {
+      // print_r($_PODT['submit']);
       //store the data into the varibles
       $username = $_POST["username"];
       $firstname = $_POST["firstname"];
@@ -42,7 +43,7 @@ require_once "includes/db-functions.php";
       }
 
       //check if the email is valid
-      if(!filter_var( $email,FILTER_VALUE))
+      if(!filter_var( $email,FILTER_DEFAULT))
       {
         array_push($errors,"email is not valid");
       }
@@ -63,11 +64,11 @@ require_once "includes/db-functions.php";
         foreach($errors as $error)
         {
         
-        // echo "<div class='alert alert-danger'> $error </div>";
+         echo "<div class='alert alert-danger'> $error </div>";
         //not shwoing error messages
-        header("location:../index.php?
-         error=invalidUsername");
-        
+       // header("location:index.php?error=invalidUsername");
+      
+         
         }
 
       }else
@@ -85,12 +86,14 @@ require_once "includes/db-functions.php";
           mysqli_stmt_bind_param($stmt,"ssssss",$username,$firstname,$lastname,$email,$passwordhash,$dateofb);
           mysqli_stmt_execute($stmt);
           echo "registered succesefully";
+          header("location:index.php");
+
          }else
          {
           die("Something is wrong");
          }
         
-        //26:90
+        
       }
 
     }

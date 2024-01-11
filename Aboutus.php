@@ -37,6 +37,7 @@ require_once "includes/dbh.php";
        to start buying records,our main outlet is suited in Siggiewi<br>
        We v been in buisness for the past 2 years <br> <br>
        contact  us on: vandr@gmail.com<br>
+      
      </p>
  
  
